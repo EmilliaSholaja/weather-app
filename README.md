@@ -47,7 +47,7 @@ This is a simple, responsive web application built with React that displays the 
     - Create a `.env` file in the root directory of the project.
     - Add the following line to the file, replacing `"YOUR_API_KEY_HERE"` with the API key you obtained from OpenWeatherMap:
       ```bash
-      REACT_APP_WEATHER_API_KEY=YOUR_API_KEY_HERE
+      VITE_API_ID=YOUR_API_KEY_HERE
       ```
     - **Note:** It's a best practice to keep API keys out of your code and use environment variables for security.
 
